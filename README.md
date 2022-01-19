@@ -23,19 +23,19 @@ C:\Program Files\Tableau\Drivers
 You should launch Tableau so it will load custom Drivers. Refer to Tableau documentation examples below for windows.
 
 
-Open a Command Prompt --
+Open a Command Prompt --:
 
-cd c:\Program Files\Tableau\Tableau {VERSION}\bin\
+CD c:\Program Files\Tableau\Tableau {VERSION}\bin\
 
-<br>
 
-==run the following command to launch tableau
+
+Run the following command to launch tableau --:
 tableau.exe -DConnectPluginsPath=C:\connector
 
 
 Shortcut can also be created in windows like the following
 
-Windows Tableau ShortCut
+Windows Tableau ShortCut :
 "C:\Program Files\Tableau\Tableau [version]\bin\tableau.exe" -DConnectPluginsPath=C:\connector
 
 
