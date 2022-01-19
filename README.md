@@ -9,7 +9,7 @@ connectionProperties
 
 On your C: drive create a folder called "connector"
 
-Within this folder unzip the code for the Tableau Connector. Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
+Within this folder unzip the code for the Tableau Connector (tableau_entain_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
 
 
 
