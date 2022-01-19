@@ -27,6 +27,8 @@ Open a Command Prompt --
 
 cd c:\Program Files\Tableau\Tableau {VERSION}\bin\
 
+<br>
+
 ==run the following command to launch tableau
 tableau.exe -DConnectPluginsPath=C:\connector
 
