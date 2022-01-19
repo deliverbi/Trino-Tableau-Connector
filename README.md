@@ -20,4 +20,24 @@ C:\Program Files\Tableau\Drivers
 
 #Launch Trino and You will see your new custom Driver called : Trino JDBC by Entain.
 
+You should launch Tableau so it will load custom Drivers. Refer to Tableau documentation examples below for windows.
+
+
+Open a Command Prompt --
+
+cd c:\Program Files\Tableau\Tableau {VERSION}\bin\
+
+==run the following command to launch tableau
+tableau.exe -DConnectPluginsPath=C:\connector
+
+
+Shortcut can also be created in windows like the following
+
+Windows Tableau ShortCut
+"C:\Program Files\Tableau\Tableau [version]\bin\tableau.exe" -DConnectPluginsPath=C:\connector
+
+
+
 Enjoy.
+
+DeliverBI Team
