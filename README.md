@@ -16,11 +16,11 @@ Create a directory for Tableau connectors in the following location:
 - Windows: `c:\conector`
 
 `Tableau Connector NON SSL Standard Trino Connections - tableau_trino_jdbc_connector.zip`
-Within this folder unzip the code for the Tableau Connector (tableau_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
+Within folder created above unzip the code for the Tableau Connector (tableau_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
 
 
 `Tableau Connector FOR SSL Connections - tableau_entain_trino_jdbc_connector.zip`
-Within this folder unzip the code for the Tableau Connector (tableau_entain_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
+Within folder created above unzip the code for the Tableau Connector (tableau_entain_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
 
 
 ## Download Trino Driver and place in Tableau drivers directory
@@ -31,7 +31,7 @@ Move the driver (jar) file to following location:
 - Mac: `~/Library/Tableau/Drivers`
 - Linux: `/opt/tableau/tableau_driver/jdbc`
 
-## Launch Trino and You will see your new custom Driver called : Trino JDBC by Entain for SSL and Trino JDBC by Trino for Default.
+## Launch Trino and You will see your new custom Connector called : Trino JDBC by Entain for SSL and Trino JDBC by Trino for Default.
 
 You should launch Tableau so it will load custom Drivers. Refer to Tableau documentation examples below for windows.
 
@@ -58,6 +58,6 @@ Windows Tableau ShortCut :
 ```
 
 
-Enjoy.
+Enjoy. Remeber their are other ways as per above to launch Tableau and store connector files . Please experiment.
 
 DeliverBI Team
