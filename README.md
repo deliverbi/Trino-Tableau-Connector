@@ -1,5 +1,5 @@
 # Trino-Tableau-Connector
-Trino Tableau Connector - 368 + Works with all versions of Trino + This driver is enabled with SSL . You can remove these params from the files when you unzip. The files can be edited with any text editor and are quite simple to understand. Manifest is the main file. You can remove SSL properties from the following files.
+Trino Tableau Connector - 368 + Works with all versions of Trino + Their are 2  Connector zips uploaded, One for SSL Entain and One for Default Trino . The files can be edited with any text editor and are quite simple to understand. Manifest is the main file. You can remove SSL properties from the following files.
 
 `connectionBuilder`
 `connectionProperties`
@@ -15,9 +15,12 @@ Create a directory for Tableau connectors in the following location:
 - Linux: `/connector`
 - Windows: `c:\conector`
 
+`Tableau Connector NON SSL Standard Trino Connections - tableau_trino_jdbc_connector.zip`
+Within this folder unzip the code for the Tableau Connector (tableau_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
 
+
+`Tableau Connector FOR SSL Connections - tableau_entain_trino_jdbc_connector.zip`
 Within this folder unzip the code for the Tableau Connector (tableau_entain_trino_jdbc_connector.zip). Once unzipped you will see a parent folder inside you will find the files required for the connector to work.
-
 
 
 ## Download Trino Driver and place in Tableau drivers directory
@@ -28,7 +31,7 @@ Move the driver (jar) file to following location:
 - Mac: `~/Library/Tableau/Drivers`
 - Linux: `/opt/tableau/tableau_driver/jdbc`
 
-## Launch Trino and You will see your new custom Driver called : Trino JDBC by Entain.
+## Launch Trino and You will see your new custom Driver called : Trino JDBC by Entain for SSL and Trino JDBC by Trino for Default.
 
 You should launch Tableau so it will load custom Drivers. Refer to Tableau documentation examples below for windows.
 
