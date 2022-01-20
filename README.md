@@ -58,6 +58,6 @@ Windows Tableau ShortCut :
 ```
 
 
-Enjoy. Remeber their are other ways as per above to launch Tableau and store connector files . Please experiment.
+Enjoy. Remember their are other ways as per above to launch Tableau and store connector files . Please experiment.
 
-DeliverBI Team
+DeliverBI Team (Sha)
